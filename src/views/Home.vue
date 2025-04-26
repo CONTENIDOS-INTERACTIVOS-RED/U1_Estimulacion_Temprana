@@ -22,11 +22,11 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Desde los comienzos de la humanidad, la relación entre los principios éticos, el desarrollo económico y la sostenibilidad ha sido fundamental para garantizar un progreso equilibrado y equitativo. En un contexto globalizado, donde los desafíos éticos y ambientales son cada vez más evidentes, la bioética emerge como una herramienta clave para orientar decisiones económicas responsables que respeten tanto el medio ambiente como los derechos humanos.
+              p.descripcion.mb-4 Desde el nacimiento, cada experiencia sensorial contribuye al desarrollo integral del niño, influyendo en sus capacidades cognitivas, emocionales y sociales. La estimulación temprana es una herramienta fundamental que busca potenciar este desarrollo, aprovechando la plasticidad cerebral y promoviendo un aprendizaje óptimo.
 
-              p.descripcion.mb-4 En esta unidad, profundizaremos en el rol de la bioética como pilar de la sostenibilidad en el desarrollo económico, explorando temas esenciales como la aplicación de principios éticos al uso de recursos naturales, la influencia de las políticas globales en la protección de los derechos humanos y la ética en la innovación tecnológica. 
+              p.descripcion.mb-4 La estimulación temprana no es solo un conjunto de técnicas, sino una oportunidad para transformar el futuro de los niños, brindándoles entornos enriquecidos que favorezcan su bienestar y aprendizaje. 
               
-              p #[b Prepárate para explorar los retos y oportunidades que la sostenibilidad y la bioética presentan en un mundo en constante evolución.]
+              p #[b ¡Prepárese para descubrir cómo potenciar el desarrollo infantil desde los primeros años de vida!]
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
