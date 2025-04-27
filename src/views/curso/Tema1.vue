@@ -1,10 +1,494 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'1. Título tema'")
+  BannerInterno(:subTitulo="'1. Fundamentos de la estimulación temprana'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
+    .bg-color-5.mb-5(data-aos="fade-up")
+      .row.justify-content-center.align-items-center
+        .col-lg-auto.order-2
+          figure
+            img(src='@/assets/curso/tema1/1.png', alt='')
+        .col-lg.order-1.mb-3.mb-lg-0
+          .p-4
+            p.mb-0(data-aos="fade-up") La primera infancia es una etapa crucial en el desarrollo humano, donde cada experiencia contribuye a la formación de habilidades cognitivas, socioemocionales, lingüísticas y motoras. La estimulación temprana juega un papel fundamental en este proceso, potenciando el aprendizaje y previniendo dificultades en el desarrollo.
+    
+    p.mb-4 En esta unidad, se aprenderá qué es la estimulación temprana, sus bases científicas y su impacto en la vida de los niños. Además, abordaremos estrategias claves para favorecer un crecimiento integral desde los primeros años de vida.
+
+    
+    .row.align-items-center.mb-5.justify-content-center
+      .col-md-6.col-lg-1.mb-3.mb-lg-0.jus
+        img(src="@/assets/curso/tema1/2.svg").mx-auto
+      .col-lg-10.mb-3.mb-lg-0
+        p.mb-0.bg-color-6.p-4.text-center.text-white ¡Comencemos este viaje hacia la comprensión y aplicación de la estimulación temprana!
+      .col-md-6.col-lg-1.mb-3.mb-lg-0.jus
+        img(src="@/assets/curso/tema1/3.svg").mx-auto
+
     #t_1_1.titulo-segundo(data-aos="flip-up")
-      h2 #[span 1.1] Subtítulo tema
+      h2 #[span 1.1] Concepto y definición de la estimulación temprana
+  
+    p.mb-4 La estimulación temprana es un pilar fundamental en el desarrollo infantil, debido a que busca potenciar las capacidades físicas, cognitivas, emocionales y sociales desde los primeros años de vida. Su importancia radica en la plasticidad cerebral, que permite que las experiencias tempranas influyan significativamente en el aprendizaje y la adaptación del niño a su entorno.
+
+    .bg-full-width.bg-color-1.mb-5
+      .px-4.p-md-5
+        .row.justify-content-center.align-items-center
+          .col-lg-7.order-2
+            h2.mb-4(data-aos="flip-up") Concepto y definición de la estimulación temprana
+            p.mb-4(data-aos="fade-right") En el PDF <b>Concepto y definición de la estimulación temprana</b>, se presentan los fundamentos teóricos y científicos de esta práctica, así como su evolución histórica y su impacto en el desarrollo infantil. A través de este material, se podrá comprender cómo la estimulación temprana no solo favorece el crecimiento integral del niño, sino que también previene dificultades en su proceso de aprendizaje y socialización.
+    
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+              .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+                img(src="@/assets/template/icono-pdf.svg")
+              .anexo__texto
+                p <strong>Anexo. </strong> Concepto y definición de la estimulación temprana.
+    
+          .col-lg-5.order-1.mb-3.mb-lg-0
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema1/4.png', alt='')
+    
+    p.mb-4 El desarrollo integral del niño no se limita a su crecimiento físico, sino que abarca diferentes áreas interconectadas:
+
+    .bg-full-width-1.bg-fondo-2
+      .px-4.px-md-5.py-4
+        div.row.justify-content-center.align-items-stretch
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema1/5.svg" alt="" style="width: 90px")
+              h5.text-center Desarrollo físico y motor
+              p.mb-0.text-center La estimulación a través del movimiento, el juego y la exploración permite mejorar el tono muscular, la coordinación, el equilibrio y las habilidades motrices finas y gruesas.
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema1/6.svg" alt="" style="width: 90px")
+              h5.text-center Desarrollo cognitivo
+              p.mb-0.text-center Las experiencias sensoriales, la resolución de problemas y la interacción con el entorno favorecen el pensamiento, la memoria, la atención y la capacidad de aprender nuevas habilidades
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema1/7.svg" alt="" style="width: 90px")
+              h5.text-center Desarrollo socioemocional
+              p.mb-0.text-center La interacción con adultos y otros niños fomenta la seguridad emocional, la confianza en sí mismo y la capacidad de gestionar emociones.
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema1/8.svg" alt="" style="width: 90px")
+              h5.text-center Desarrollo del lenguaje
+              p.mb-0.text-center La comunicación temprana, el contacto visual, la imitación de sonidos y la interacción verbal son fundamentales para el aprendizaje del lenguaje y la futura alfabetización.
+
+    .bg-full-width.bg-color-5.mb-5
+      .px-4.px-md-5.py-4
+        p.mb-0 Después de abordar el tema concepto y definición de la estimulación temprana, se dará continuidad con el estudio de las bases neurocientíficas y psicológicas, destacando su influencia en el desarrollo infantil.
+    
+    #t_1_2.titulo-segundo(data-aos="flip-up")
+      h2 #[span 1.2] Bases neurocientíficas y psicológicas de la estimulación temprana
+    
+      .row.justify-content-center.align-items-stretch.mb-4
+        .col-lg-6.mb-3.mb-lg-0
+          .bg-color-7.p-4(data-aos="fade-left").h-100
+            .row.align-items-center
+              .col-lg-auto
+                img(src="@/assets/curso/tema1/9.svg", style="max-width: 90px").mx-auto
+              .col-lg
+                p.mb-0 ¿Qué hace que los primeros años de vida sean tan determinantes en el desarrollo de una persona? 
+
+        .col-lg-6.mb-3.mb-lg-0
+          .bg-color-7.p-4(data-aos="fade-left").h-100
+            .row.align-items-center
+              .col-lg-auto
+                img(src="@/assets/curso/tema1/10.svg", style="max-width: 90px").mx-auto
+              .col-lg
+                p.mb-0 ¿Por qué algunas habilidades parecen adquirirse con mayor facilidad en ciertas etapas y otras requieren un esfuerzo considerable con el paso del tiempo?
+
+    p.mb-4 La respuesta a estas preguntas se encuentra en la comprensión de las bases neurocientíficas y psicológicas del desarrollo infantil, donde la plasticidad cerebral y los períodos críticos desempeñan un papel fundamental. Conozcamos cada una de ellas:
+
+    .row.align-items-center.mb-5
+      .col-lg-4.order-2
+        figure
+          img(src="@/assets/curso/tema1/11.png", alt="", data-aos="zoom-in").mb-4.mb-lg-0
+      .col-lg-8.order-1.mb-3.mb-lg-0
+        LineaTiempoD.color-primario.large(data-aos="fade-left")
+          p(numero="1" titulo="Desde la neurociencia") Desde la neurociencia, se ha demostrado que el cerebro no es una estructura rígida, sino un sistema dinámico que se moldea a partir de la interacción con el entorno (Sousa, 2014). Este fenómeno, conocido como plasticidad cerebral, se refiere a la capacidad del cerebro para reorganizarse, establecer nuevas conexiones neuronales y adaptarse a las experiencias vividas (Prieto, 2012). Durante los primeros años de vida, esta plasticidad alcanza su punto máximo, lo que permite un aprendizaje y un desarrollo acelerados, sentando las bases para futuras habilidades cognitivas, emocionales y motoras.
+          p(numero="2" titulo="Períodos críticos") Ahora bien, dentro de este proceso existen momentos claves en los que ciertas habilidades se desarrollan con mayor facilidad. Estos momentos, denominados períodos críticos, representan ventanas de oportunidad en las que el cerebro es particularmente receptivo a ciertos estímulos (Pulido, 2005). Por ejemplo, el aprendizaje del lenguaje ocurre de manera más natural en los primeros años de vida, pues el cerebro está preparado para reconocer y estructurar sonidos, con gran precisión. Si en esta etapa no se recibe suficiente estimulación lingüística, la adquisición del lenguaje podría verse comprometida, incluso con esfuerzos posteriores.
+          p(numero="3" titulo="Plasticidad cerebral") Es importante resaltar que la plasticidad cerebral no desaparece con la edad, pero sí se reduce progresivamente (García Salaya et al., 2024). En la infancia, el cerebro responde con mayor flexibilidad a los estímulos, lo que permite la construcción de bases sólidas para el desarrollo cognitivo, social y emocional. En cambio, en la adultez, aunque el cerebro sigue siendo adaptable, la formación de nuevas conexiones neuronales requiere un mayor esfuerzo y práctica.
+          p(numero="4" titulo="Desde la psicología") Desde la psicología, Babativa (2017), asegura que se ha evidenciado que el desarrollo infantil no solo depende de la estimulación externa, sino también de la interacción afectiva y del contexto en el que crece el niño. El apego seguro, la exploración del entorno y la interacción con otros niños y adultos, potencian el desarrollo de habilidades sociales y emocionales. De este modo, la combinación entre factores neurobiológicos y experiencias ambientales, moldea el proceso de aprendizaje y adaptación.
+
+    p Ahora surge una pregunta clave: <b>¿qué sucede cuando un niño no recibe la estimulación adecuada en estos períodos sensibles?</b> La ausencia de experiencias enriquecedoras, puede limitar el desarrollo de ciertas habilidades, dificultando el aprendizaje y la socialización en etapas posteriores. Sin embargo, gracias a la plasticidad cerebral, es posible generar estrategias de intervención que favorezcan la recuperación y el fortalecimiento de competencias, siempre que se brinden las oportunidades y el apoyo adecuados.
+    p.mb-4 En este sentido, comprender cómo se construye el conocimiento en la infancia, resulta fundamental.
+
+    .row.justify-content-center.align-items-center
+      .col-lg-10.bg-h85-1
+        div 
+          .row.justify-content-center.align-items-center
+            .col-lg-8(data-aos="fade-left").order-2
+              h5.mt-5 ¿Es un proceso interno, guiado por la maduración biológica, o depende principalmente de la interacción con el entorno y la cultura?
+            .col-lg-4(data-aos="zoom-in").order-1.mb-3.mb-lg-0
+              img.img-fluid(src='@/assets/curso/tema1/12.svg', style="max-width:486px", alt="" ).mx-auto.mx-lg-0.ms-lg-auto.mb-4.mb-lg-0
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10.bg-color-8
+        div.p-5
+          p.mb-0 Para responder a estas preguntas, es necesario explorar las principales teorías del desarrollo infantil, las cuales han proporcionado marcos de referencia esenciales, para comprender cómo aprenden y evolucionan los niños desde una perspectiva neurocientífica y psicológica.
+
+    .row.mb-5
+      .col-lg-4.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema1/13.png", data-aos="zoom-in")
+      .col-lg-8
+        .bg-color-2.p-4.mb-3(data-aos="fade-left")
+          .row.align-items-start
+            .col-lg-auto
+              img(src="@/assets/curso/tema1/14.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0 Jean Piaget, Lev Vygotsky y Jerome Bruner, entre otros teóricos, han desarrollado modelos explicativos que permiten entender el aprendizaje en la infancia, desde diferentes enfoques. Aunque cada teoría presenta matices particulares, todas coinciden en que el desarrollo infantil es un proceso dinámico y complejo, en el que influyen tanto factores internos como externos.
+        p(data-aos="fade-left") Desde la teoría de Piaget, el aprendizaje infantil ocurre en etapas progresivas, donde cada fase representa un nivel más avanzado de pensamiento y razonamiento. Según este enfoque, los niños no asimilan la información de manera pasiva, sino que construyen activamente su conocimiento, a través de la exploración y la interacción con el mundo.
+        p(data-aos="fade-left") Piaget propone cuatro etapas del desarrollo cognitivo:
+    
+    .bg-full-width.bg-fondo-slider.mb-5
+      .p-4.p-md-5
+        SlyderA(tipo="b").bg-white
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5.order-2
+              figure
+                img(src="@/assets/curso/tema1/15.png")
+            .col-lg-7.order-1.mb-3.mb-lg-0
+              h5 Sensoriomotora (0-2 años)
+              p El aprendizaje ocurre a través de los sentidos y el movimiento. En esta fase, el niño descubre la permanencia del objeto, comprendiendo que los elementos existen incluso cuando no están a la vista.
+    
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5.order-2
+              figure
+                img(src="@/assets/curso/tema1/16.png")
+            .col-lg-7.order-1.mb-3.mb-lg-0
+              h5 Preoperacional (2-7 años)
+              p Se desarrolla el pensamiento simbólico y el lenguaje, aunque el razonamiento sigue siendo egocéntrico y basado en la percepción inmediata.
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5.order-2
+              figure
+                img(src="@/assets/curso/tema1/17.png")
+            .col-lg-7.order-1.mb-3.mb-lg-0
+              h5 Operaciones concretas (7-11 años)
+              p Aparece el pensamiento lógico, lo que permite comprender conceptos como la conservación de la cantidad y la reversibilidad de las acciones.
+    
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5.order-2
+              figure
+                img(src="@/assets/curso/tema1/18.png")
+            .col-lg-7.order-1.mb-3.mb-lg-0
+              h5 Operaciones formales (12 años en adelante)
+              p Se adquiere la capacidad de razonar de manera abstracta y de formular hipótesis.
+    
+    .bg-full-width.bg-color-5.mb-5
+      .px-4.px-md-5.py-4
+        .row.justify-content-center.align-items-center
+          .col-lg-12
+            .row.justify-content-center.align-items-center
+              .col-lg-8(data-aos="fade-left").order-2
+                p Mientras que Piaget enfatiza la construcción individual del conocimiento, Vygotsky resalta la importancia del contexto social y cultural en el aprendizaje. Su teoría sostiene que el desarrollo infantil está mediado por la interacción con otros, especialmente con figuras de mayor experiencia, como padres, maestros y compañeros.
+                p Un concepto clave en su teoría es la Zona de Desarrollo Próximo (ZDP), que representa el espacio entre lo que el niño puede hacer por sí mismo y lo que puede lograr con ayuda (Graus, 2019). Es en esta zona, donde se produce el aprendizaje más significativo, gracias al apoyo de un mediador que facilita el proceso, lo que Vygotsky denominó andamiaje.
+              .col-lg-4(data-aos="zoom-in").order-1.mb-3.mb-lg-0
+                img.img-fluid(src='@/assets/curso/tema1/19.svg', style="max-width:486px", alt="" ).mx-auto.mx-lg-0.ms-lg-auto.mb-4.mb-lg-0
+    
+    p.mb-4 Por su parte, Bruner amplía la perspectiva del aprendizaje infantil al proponer que el conocimiento se construye a través de diferentes formas de representación mental:
+
+    .row.justify-content-center.align-items-stretch.mb-4
+      .col-lg-4.mb-3.mb-lg-0
+        .bg-color-7.p-4(data-aos="fade-left").h-100
+          .row.align-items-center
+            .col-lg-auto
+              img(src="@/assets/curso/tema1/20.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              h5 Enactiva
+              p.mb-0 Aprendizaje basado en la acción (ejemplo: manipular objetos). 
+
+      .col-lg-4.mb-3.mb-lg-0
+        .bg-color-7.p-4(data-aos="fade-left").h-100
+          .row.align-items-center
+            .col-lg-auto
+              img(src="@/assets/curso/tema1/21.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              h5 Icónica
+              p.mb-0 Uso de imágenes y símbolos visuales para representar conceptos.
+      .col-lg-4.mb-3.mb-lg-0
+        .bg-color-7.p-4(data-aos="fade-left").h-100
+          .row.align-items-center
+            .col-lg-auto
+              img(src="@/assets/curso/tema1/22.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              h5 Simbólica
+              p.mb-0 Comprensión abstracta mediante el lenguaje y el pensamiento lógico.
+    
+    p.mb-4 Bruner destaca la importancia del aprendizaje por descubrimiento, donde los niños, a través de la exploración guiada, encuentran significados en la información en lugar de recibir conocimientos de manera pasiva.
+
+    .row.mb-5
+      .col-lg-4.mb-3.mb-lg-0
+        .bg-color-4.p-4.h-100(data-aos="fade-left")
+          p(data-aos="fade-left") Cada una de estas teorías ha influido en la educación y en la forma en que se diseñan estrategias de enseñanza. Mientras Piaget resalta el papel de la maduración biológica y el pensamiento autónomo, Vygotsky enfatiza la interacción social y la mediación cultural, y Bruner aporta un enfoque basado en la construcción progresiva del conocimiento, a través de representaciones.
+      .col-lg-4.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema1/23.png" data-aos="zoom-in")
+      .col-lg-4.mb-3.mb-lg-0
+        .bg-color-1.p-4.h-100(data-aos="fade-left")
+          p(data-aos="fade-left") Desde una perspectiva neurocientífica, estas ideas se relacionan con la plasticidad cerebral, puesto que la interacción con el entorno y la estimulación adecuada, potencian la formación de conexiones neuronales y facilitan el desarrollo de habilidades cognitivas. Así, comprender estas teorías permite mejorar las prácticas educativas y promover ambientes de aprendizaje más efectivos y enriquecedores, para la infancia.
+    
+    p.mb-4 En este contexto, el vínculo afectivo juega un papel crucial en el desarrollo infantil.
+
+    .row.justify-content-center.align-items-center
+      .col-lg-10.bg-h85-2
+        div 
+          .row.justify-content-center.align-items-center
+            .col-lg-8(data-aos="fade-left").order-2
+              h5.mt-5 ¿Por qué la interacción temprana con los cuidadores influye en la forma en que una persona se relaciona con el mundo?
+            .col-lg-4(data-aos="zoom-in").order-1.mb-3.mb-lg-0
+              img.img-fluid(src='@/assets/curso/tema1/24.svg', style="max-width:486px", alt="" ).mx-auto.mx-lg-0.ms-lg-auto.mb-4.mb-lg-0
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10.bg-color-9
+        div.p-5
+          p.mb-0 Para responder a esta pregunta, es fundamental analizar el papel del apego y la interacción social en los primeros años de vida, aspectos que han sido ampliamente estudiados desde la neurociencia y la psicología del desarrollo.
+    
+    .row.mb-5
+      .col-lg-4.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema1/25.png", data-aos="zoom-in")
+      .col-lg-8
+        p(data-aos="fade-left") El cerebro infantil es altamente plástico y receptivo a las experiencias del entorno. Durante los primeros años, las conexiones neuronales se forman y reorganizan constantemente en función de los estímulos recibidos. En este sentido, el vínculo afectivo con los cuidadores primarios, no solo proporciona seguridad emocional, sino que también impacta directamente en el desarrollo cognitivo, social y emocional del niño.
+    
+        .bg-color-4.p-4.mb-3(data-aos="fade-left")
+          .row.align-items-start
+            .col-lg-auto
+              img(src="@/assets/curso/tema1/26.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0 John Bowlby (1989), pionero en la teoría del apego, sostiene que los seres humanos nacen con una predisposición biológica a formar lazos afectivos, porque la cercanía con un cuidador representa una ventaja evolutiva en términos de protección y supervivencia. Desde esta perspectiva, el apego es más que una simple conexión emocional; es un sistema de comportamiento que garantiza el bienestar del niño y facilita su desarrollo.
+        p(data-aos="fade-left") Mary Ainsworth, a partir de sus estudios sobre la "situación extraña", identificó distintos tipos de apego en la infancia:
+
+    TabsC.color-acento-contenido
+      .tabs-content.border.px-4.p-md-5.py-3(titulo="Apego seguro" :icon="require('@/assets/bullets/1.svg')")
+        .row.justify-content-center.align-items-center
+          .col-lg-7.col-xl-8.mb-4.mb-md-0.mb-3.mb-lg-0
+            h4 Apego seguro
+            p Se establece cuando el niño percibe a su cuidador como una base segura a la que puede recurrir en momentos de angustia. Esto favorece la exploración del entorno, con confianza y autonomía.
+    
+          .col-md-8.col-lg-5.col-xl-4
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema1/27.png', alt='')
+    
+      .tabs-content.border.px-4.p-md-5.py-3(titulo="Apego ansioso o ambivalente" :icon="require('@/assets/bullets/1.svg')")
+        .row.justify-content-center.align-items-center
+          .col-lg-7.col-xl-8.mb-4.mb-md-0.mb-3.mb-lg-0
+            h4 Apego ansioso o ambivalente
+            p Ocurre cuando la respuesta del cuidador es inconsistente, generando en el niño ansiedad e inseguridad sobre la disponibilidad del adulto.
+    
+          .col-md-8.col-lg-5.col-xl-4
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema1/28.png', alt='')
+    
+      .tabs-content.border.px-4.p-md-5.py-3(titulo="Apego evitativo" :icon="require('@/assets/bullets/1.svg')")
+        .row.justify-content-center.align-items-center
+          .col-lg-7.col-xl-8.mb-4.mb-md-0.mb-3.mb-lg-0
+            h4 Apego evitativo
+            p Se da cuando el niño experimenta una falta de respuesta emocional por parte del cuidador, lo que lo lleva a evitar el contacto y a desarrollar estrategias de autosuficiencia emocional.
+    
+          .col-md-8.col-lg-5.col-xl-4
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema1/29.png', alt='', style="width: 100%;")
+    
+      .tabs-content.border.px-4.p-md-5.py-3(titulo="Apego desorganizado" :icon="require('@/assets/bullets/1.svg')")
+        .row.justify-content-center.align-items-center
+          .col-lg-7.col-xl-8.mb-4.mb-md-0.mb-3.mb-lg-0
+            h4 Apego desorganizado
+            p Se observa en niños expuestos a experiencias traumáticas o negligencia severa, lo que genera patrones de comportamiento confusos y contradictorios.
+    
+          .col-md-8.col-lg-5.col-xl-4
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema1/30.png', alt='', style="width: 100%;")
+    
+    div.bg-color-6.p-4.mb-5
+      .row.align-items-center
+        .col-lg-auto
+          img(src="@/assets/curso/tema1/31.svg", style="max-width: 90px").mx-auto
+        .col-lg
+          p.mb-0.text-white Desde la neurociencia, se ha evidenciado que un apego seguro contribuye a la regulación del estrés, pues la interacción afectiva activa circuitos cerebrales asociados con la producción de oxitocina, hormona vinculada con el bienestar y el establecimiento de vínculos de confianza. Además, la seguridad emocional fortalece la autorregulación y el desarrollo de habilidades socioemocionales, esenciales para la vida.
+    
+    p Las experiencias sociales y afectivas en la infancia, moldean el desarrollo neuronal. Diversas investigaciones han demostrado que los niños que reciben estimulación afectiva y comunicación constante, presentan un mejor desarrollo en áreas del cerebro relacionadas con el lenguaje, la empatía y la resolución de problemas.
+    p.mb-4 Algunas interacciones claves en esta etapa, incluyen:
+
+    .bg-full-width-1.bg-fondo-2
+      .px-4.px-md-5.pb-md-3
+        .row.justify-content-center.align-items-stretch.mb-5
+          .col-lg-4.mb-4(data-aos="zoom-in-up")
+            .custom-image-card-2.h-100
+              img.custom-image-card__image(src="@/assets/curso/tema1/32.png" alt="")
+              .custom-image-card__text.p-4
+                h5.mb-2.text-center Contacto visual y expresiones faciales
+                p.mb-0 Refuerzan el vínculo emocional y facilitan la comunicación no verbal.
+          .col-lg-4.mb-4(data-aos="zoom-in-down")
+            .custom-image-card-2.h-100
+              img.custom-image-card__image(src="@/assets/curso/tema1/33.png" alt="")
+              .custom-image-card__text.p-4
+                h5.mb-2.text-center Juego interactivo
+                p.mb-0 Fomenta la creatividad, la exploración y la construcción de significados compartidos.
+          .col-lg-4.mb-4(data-aos="zoom-in-down")
+            .custom-image-card-2.h-100
+              img.custom-image-card__image(src="@/assets/curso/tema1/34.png" alt="")
+              .custom-image-card__text.p-4
+                h5.mb-2.text-center Respuesta a señales emocionales
+                p.mb-0 Cuando un cuidador responde de manera sensible a las necesidades del niño, se fortalece la confianza y se establece un modelo de interacción saludable.
+
+    .bg-full-width.bg-color-2
+      .px-4.px-md-5.py-4
+        .row.justify-content-center.align-items-center
+          .col-lg-12
+            .row.justify-content-center.align-items-center
+              .col-lg-8(data-aos="fade-left").order-2
+                p El desarrollo infantil es un proceso dinámico en el que convergen factores neurocientíficos y psicológicos. La plasticidad cerebral y los períodos críticos evidencian la importancia de una estimulación adecuada en los primeros años de vida, favoreciendo la consolidación de habilidades cognitivas y socioemocionales. Las teorías de Piaget, Vygotsky y Bruner, entre otros, han proporcionado marcos fundamentales para comprender cómo los niños construyen el conocimiento a través de la maduración biológica y la interacción con su entorno. Asimismo, el vínculo afectivo y la calidad de las relaciones tempranas, desempeñan un papel esencial en la formación de la identidad y el bienestar emocional. Por ello, reconocer estos principios permite diseñar estrategias educativas y de crianza que potencien el desarrollo integral de la infancia, asegurando entornos enriquecedores y protectores.
+              .col-lg-4(data-aos="zoom-in").order-1.mb-3.mb-lg-0
+                img.img-fluid(src='@/assets/curso/tema1/35.svg', style="max-width:486px", alt="" ).mx-auto.mx-lg-0.ms-lg-auto.mb-4.mb-lg-0
+    
+    .bg-full-width.bg-color-7.mb-5
+      .px-4.px-md-5.py-4
+        p.mb-0 Después de abordar el tema anterior, es importante dar continuidad a la reflexión, con el análisis de los objetivos de la estimulación temprana, destacando su impacto en el desarrollo integral de la infancia.
+
+    #t_1_3.titulo-segundo(data-aos="flip-up")
+      h2 #[span 1.3] Objetivos de la estimulación temprana
+    
+    p.mb-4 La estimulación temprana es una estrategia clave para potenciar el desarrollo integral de los niños en sus primeros años de vida, favoreciendo su crecimiento en diversas áreas fundamentales. Comprender sus objetivos permite no solo aplicar prácticas efectivas, sino también prevenir dificultades en el aprendizaje y la socialización.
+
+    .bg-full-width.bg-color-1.mb-5
+      .px-4.p-md-5
+        .row.justify-content-center.align-items-center
+          .col-lg-7.mb-3.mb-lg-0
+            h2.mb-4(data-aos="flip-up") Objetivos de la estimulación temprana
+            p.mb-4(data-aos="fade-right") En el PDF <b>Objetivos de la estimulación temprana</b>, se analizan los principios que guían esta disciplina, resaltando su impacto en el desarrollo físico, cognitivo, socioemocional y lingüístico. A través de este material, se podrá identificar cómo la estimulación temprana contribuye a fortalecer las capacidades innatas de los niños, promoviendo un crecimiento armónico y equilibrado desde sus primeros meses de vida.
+    
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
+              .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+                img(src="@/assets/template/icono-pdf.svg")
+              .anexo__texto
+                p <strong>Anexo. </strong> Objetivos de la estimulación temprana.
+    
+          .col-lg-5
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema1/36.png', alt='')
+  
+    #t_1_4.titulo-segundo(data-aos="flip-up")
+      h2 #[span 1.4] Principios básicos de la estimulación temprana
+    
+    .row.justify-content-center.align-items-center
+      .col-lg-10.bg-h85-2
+        div 
+          .row.justify-content-center.align-items-center
+            .col-lg-8(data-aos="fade-left").order-2
+              h5.mt-5 ¿Qué sucede cuando se pretende aplicar una misma estrategia de estimulación para todos los niños, sin considerar sus particularidades? 
+            .col-lg-4(data-aos="zoom-in").order-1.mb-3.mb-lg-0
+              img.img-fluid(src='@/assets/curso/tema1/37.svg', style="max-width:486px", alt="" ).mx-auto.mx-lg-0.ms-lg-auto.mb-4.mb-lg-0
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10.bg-color-9
+        div.p-5
+          p.mb-0 Cada niño es único, con su propio ritmo de desarrollo, intereses, necesidades y formas de interactuar con el entorno. Por ello, la individualización de los procesos de estimulación, se convierte en un principio fundamental para garantizar que cada intervención responda a sus características y potencialidades.
+    
+    .row.mb-5
+      .col-lg-4.order-lg-2.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema1/38.png", data-aos="zoom-in")
+      .col-lg-8.order-lg-1
+        p(data-aos="fade-left") Adaptar la estimulación a cada niño, implica observar atentamente sus fortalezas y desafíos, respetar su estilo de aprendizaje y diseñar experiencias significativas que lo motiven y desafíen sin generar frustración. No se trata solo de seguir una serie de actividades preestablecidas, sino de construir un camino de aprendizaje flexible y enriquecedor, en el que cada pequeño pueda explorar, descubrir y fortalecer sus habilidades, de manera natural y placentera.
+    
+        .bg-color-4.p-4.mb-3(data-aos="fade-left")
+          .row.align-items-start
+            .col-lg-auto
+              img(src="@/assets/curso/tema1/39.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0 Asimismo, la individualización permite detectar de manera oportuna cualquier señal de alerta en el desarrollo, facilitando la implementación de estrategias ajustadas a sus necesidades específicas. En este sentido, más que una simple metodología, se trata de una mirada integral que reconoce la diversidad infantil y busca potenciar el desarrollo de cada niño en función de su propia esencia.
+        p(data-aos="fade-left") Entonces:
+
+      
+    .row.align-items-center.mb-5
+      .col-lg-4.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema1/40.png", alt="", data-aos="zoom-in").mb-4.mb-lg-0
+      .col-lg-8
+        p(data-aos="fade-left") 
+        
+        LineaTiempoD.color-primario.large(data-aos="fade-left")
+          p(numero="1" titulo="¿Cómo se pueden diseñar estrategias de estimulación que realmente respeten la individualidad de cada niño? ") La respuesta radica en la observación, la sensibilidad y el compromiso de quienes acompañan su crecimiento, comprendiendo que cada experiencia debe ser significativa y ajustada a su mundo particular. En este sentido, el juego se convierte en un eje fundamental dentro de la estimulación temprana, porque permite generar ambientes de aprendizaje dinámicos y enriquecedores.
+          p(numero="2" titulo="¿Se puede imaginar un aprendizaje verdaderamente significativo sin la presencia del juego?") Para un niño, jugar no es simplemente una forma de entretenimiento, sino una vía esencial para explorar el mundo, comprender su entorno y desarrollar habilidades fundamentales. A través del juego, se favorece el desarrollo cognitivo, físico, social y emocional, permitiéndole construir conocimientos de manera natural y placentera. De esta manera, cuando la estimulación se diseña respetando la individualidad del niño y utilizando el juego como herramienta pedagógica, se garantiza un proceso de aprendizaje integral que responde a sus necesidades, intereses y ritmo de desarrollo.
+
+    .bg-full-width.bg-h85-3
+      .px-4.px-md-5.py-4
+        div 
+          .row.align-items-center
+            .col-lg-auto.order-2
+              img(src="@/assets/curso/tema1/41.svg", style="max-width: 295px").mx-auto
+            .col-lg.order-1
+              p.mb-0.text-white Desde una perspectiva pedagógica, el juego es una estrategia poderosa que facilita la adquisición de nuevas competencias sin que el aprendizaje se perciba como una imposición. Cuando un niño juega, experimenta, resuelve problemas, ensaya roles sociales y fortalece su creatividad. Además, el juego estimula la curiosidad, fomenta la autonomía y contribuye al desarrollo del lenguaje y la comunicación, debido a que muchas interacciones lúdicas requieren negociar, expresar ideas y comprender diferentes perspectivas (Vidal, 2007).
+
+    p Por otro lado, es importante reconocer que no cualquier actividad recreativa cumple una función pedagógica. Para que el juego tenga un impacto positivo en el desarrollo infantil, debe diseñarse de manera intencional, respondiendo a los intereses y necesidades del niño. Un entorno enriquecido con materiales adecuados, espacios flexibles y oportunidades de exploración, favorece experiencias lúdicas que potencian el aprendizaje.
+    p.mb-4 Entonces:
+
+    .bg-full-width.bg-fondo-slider.mb-5
+      .p-4.p-md-5
+        SlyderA(tipo="b").bg-white
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5.mb-3.mb-lg-0
+              figure
+                img(src="@/assets/curso/tema1/41.png")
+            .col-lg-7
+              h5 ¿Cómo se pueden integrar el juego y la enseñanza de manera efectiva?
+              p La clave está en permitir que el aprendizaje suceda de forma natural, aprovechando el interés innato de los niños por descubrir, experimentar y jugar. Cuando el juego se convierte en el eje de las experiencias educativas, el aprendizaje deja de ser una obligación y se transforma en una aventura llena de significado y disfrute. A través de esta metodología, no solo se fomenta el desarrollo de habilidades cognitivas, sociales y emocionales, sino que también se fortalece la motivación y la autonomía del niño en su proceso de aprendizaje.
+    
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5.mb-3.mb-lg-0
+              figure
+                img(src="@/assets/curso/tema1/42.png")
+            .col-lg-7
+              h5 ¿Qué tan determinante es el rol de la familia y los profesionales en el desarrollo infantil?
+              p La estimulación temprana no ocurre de manera aislada, sino que es el resultado de una interacción constante entre el niño y su entorno. En este proceso, la familia y los profesionales de la educación y la salud, juegan un papel clave, pues son quienes crean las condiciones necesarias para potenciar el desarrollo en sus diferentes dimensiones. La calidad de las interacciones, la disponibilidad de materiales adecuados y el acompañamiento afectivo, son aspectos fundamentales que contribuyen a un crecimiento saludable y equilibrado.
+            
+    p.mb-4 Así, cuando familia y profesionales trabajan de manera articulada, se generan oportunidades de aprendizaje enriquecedoras que benefician significativamente el bienestar infantil:
+
+    .row.align-items-center.mb-5
+      .col-lg-4.order-2
+        figure
+          img(src="@/assets/curso/tema1/43.png", alt="", data-aos="zoom-in").mb-4.mb-lg-0
+      .col-lg-8.order-1.mb-3.mb-lg-0
+        p(data-aos="fade-left") 
+        
+        LineaTiempoD.color-primario.large(data-aos="fade-left")
+          p(numero="1" titulo="La familia") La familia, como primer entorno de aprendizaje, proporciona las experiencias afectivas y cognitivas, fundamentales en los primeros años de vida. Cada interacción cotidiana, desde una conversación hasta un juego compartido, contribuye a fortalecer el desarrollo lingüístico, social y emocional del niño. Asimismo, el vínculo seguro con los cuidadores, fomenta la confianza y la exploración, elementos esenciales para un aprendizaje significativo. 
+          p(numero="2" titulo="Los profesionales de la educación y la salud") Los profesionales de la educación y la salud, tienen la responsabilidad de orientar, diseñar y ejecutar estrategias de estimulación, acordes con las necesidades individuales de cada niño. A través de un enfoque interdisciplinario, pueden identificar señales de alerta, intervenir oportunamente y guiar a las familias en la creación de ambientes enriquecidos que favorezcan el desarrollo infantil. Además, su labor permite garantizar que la estimulación se fundamente en principios científicos, asegurando su efectividad y pertinencia.
+          p(numero="3" titulo="Trabajan en conjunto") Cuando la familia y los profesionales trabajan en conjunto, se genera una sinergia que maximiza las oportunidades de aprendizaje y bienestar para el niño. Por ello, es fundamental fortalecer el acompañamiento, la comunicación y la formación en torno a la estimulación temprana, entendiendo que esta no es solo una estrategia educativa, sino un compromiso compartido, para construir bases sólidas en el desarrollo infantil.
+    
+    .bg-full-width.bg-color-2
+      .px-4.px-md-5.py-4
+        .row.justify-content-center.align-items-center
+          .col-lg-12
+            .row.justify-content-center.align-items-center
+              .col-lg-8(data-aos="fade-left").order-2
+                p Si observamos con atención, ¿qué factores hacen que la estimulación temprana sea realmente efectiva? La respuesta no es única, sino que se construye a partir de tres pilares fundamentales: la individualización, el juego y la participación activa de la familia y los profesionales. Cada niño es un universo en sí mismo, con un ritmo y una forma particular de aprender, por lo que adaptar las experiencias a sus necesidades, es esencial. Ahora bien, ¿cómo aprende mejor un niño? Jugando. El juego no es solo diversión; es la manera en que explora, experimenta y comprende el mundo. Y aquí surge una pregunta clave: <b>¿quiénes están llamados a garantizar estas oportunidades de aprendizaje?</b>
+              .col-lg-4(data-aos="zoom-in").order-1.mb-3.mb-lg-0
+                img.img-fluid(src='@/assets/curso/tema1/44.svg', style="max-width:486px", alt="" ).mx-auto.mx-lg-0.ms-lg-auto.mb-4.mb-lg-0
+    
+    .bg-full-width.bg-color-7.mb-5
+      .px-4.px-md-5.py-4
+        p.mb-0 La familia y los profesionales desempeñan un rol determinante, pues son quienes crean los espacios y las condiciones que permitirán que cada niño alcance su máximo potencial. Cuando estos tres principios se integran, la estimulación deja de ser una simple estrategia y se convierte en una herramienta poderosa para transformar el futuro de cada niño.
+    
+    p.mb-4 Luego de abordar los principios básicos de la estimulación temprana, es momento de profundizar en los ámbitos de aplicación, explorando cómo y dónde se pueden implementar estas estrategias, para favorecer el desarrollo infantil.
+
+    #t_1_5.titulo-segundo(data-aos="flip-up")
+      h2 #[span 1.5] Ámbitos de aplicación de la estimulación temprana
+
+    p.mb-4 El desarrollo infantil es un proceso continuo que ocurre en diversos entornos, cada uno desempeñando un papel esencial en la formación de habilidades y capacidades. La estimulación temprana, lejos de estar limitada a un solo espacio, se extiende al hogar, los centros educativos y los espacios de salud, creando una red de apoyo fundamental para el crecimiento integral de los niños.
+
+    .bg-full-width.bg-color-1.mb-lg-5
+      .px-4.p-md-5
+        .row.justify-content-center.align-items-center
+          .col-lg-7.order-2
+            h2.mb-4(data-aos="flip-up") Ámbitos de aplicación de la estimulación temprana
+            p.mb-4(data-aos="fade-right") En el PDF <b>Ámbitos de aplicación de la estimulación temprana</b>, se analizan los distintos escenarios en los que esta práctica se lleva a cabo, así como los enfoques preventivo y terapéutico que garantizan un acompañamiento adecuado. A través de este material, se podrá comprender cómo la interacción entre familia, educadores y profesionales de la salud potencia el desarrollo infantil, asegurando que cada niño reciba las oportunidades necesarias para desplegar todo su potencial.
+    
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_3.pdf')" target="_blank")(data-aos="flip-up")
+              .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+                img(src="@/assets/template/icono-pdf.svg")
+              .anexo__texto
+                p <strong>Anexo. </strong> Ámbitos de aplicación de la estimulación temprana.
+    
+          .col-lg-5.order-1.mb-3.mb-lg-0
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema1/45.png', alt='')
 
     .bg-full-width.border-top.color-primario
       .p-4.p-md-5
@@ -15,15 +499,35 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
-
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/153532" target="_blank" rel="noopener noreferrer") Vidal Lucena, M. (Coord.). (2007). estimulación temprana de 0 a 6 años: desarrollo de capacidades, valoración y programas de intervención: 3a parte: valoración del desarrollo de capacidades: ( ed.). Editorial CEPE. 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.medigraphic.com/pdfs/fisica/mf-2002/mf02-2_4i.pdf " target="_blank" rel="noopener noreferrer") Salas, A. M. (2002). La estimulación temprana. Revista Mexicana de Medicina Física y Rehabilitación, 14(2-4), 63-64.  
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://isae.metabiblioteca.org/cgi-bin/koha/opac-detail.pl?biblionumber=2292" target="_blank" rel="noopener noreferrer") Alvarez H, F. (2002). Estimulación Temprana: Una Puerta Hacia el Futuro (5a ed.). Alfaomega Grupo Editor.  
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://miotroyo.es/blog/ " target="_blank" rel="noopener noreferrer") Blog - Mi otro yo. (s.f.). Mi otro yo. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.axacolpatria.co/es/-/wc-blogs-Estimulación-temprana " target="_blank" rel="noopener noreferrer") WC - Blogs estimulación temprana. (s.f.-b). AXAColpatria. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://neurodesarrollar.com/la-importancia-de-la-Estimulación-temprana/ " target="_blank" rel="noopener noreferrer") La importancia de la estimulación temprana - Neurodesarrollar. (s.f.). Neurodesarrollar. 
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              a(href="https://www.youtube.com/watch?v=r0WpibVYKCY " target="_blank" rel="noopener noreferrer") Misiones Online. (2020, 19 de febrero). La importancia de la atención temprana integral para el buen desarrollo de la persona [Video]. YouTube. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=4Nc3XTZHmEU" target="_blank" rel="noopener noreferrer") AEIPI Asociación Española de Intervención en la Primera Infancia. (2021, 25 de enero). AEIPI - Transición Atención Temprana A Educación - Cristina Díaz [Video]. YouTube. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=XCvIiE7dkco" target="_blank" rel="noopener noreferrer") Diego Neurociencias. (2021, 14 de julio). Fundamentos de la Plasticidad Cerebral [Video]. YouTube. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=fXQs0o6hljE" target="_blank" rel="noopener noreferrer") Universidadurjc. (2016, 12 de enero). Atención Temprana - Carmen Jiménez [Video]. YouTube. 
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure

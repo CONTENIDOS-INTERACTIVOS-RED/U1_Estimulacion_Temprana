@@ -28,13 +28,13 @@
               .col-lg-8(data-aos="fade-left").order-2
                 ul.lista-ul--color
                   li.d-flex
-                    i.far.fa-arrow-alt-circle-right.bg-color-9
+                    i.far.fa-arrow-alt-circle-right.bg-color-10
                     p.mb-0 Explicar los objetivos y la importancia de la estimulación temprana, entendiendo cómo influye directamente en el desarrollo integral del niño en sus primeros años, con implicaciones profundas para su futuro aprendizaje y adaptación.
                   li.d-flex
-                    i.far.fa-arrow-alt-circle-right.bg-color-9
+                    i.far.fa-arrow-alt-circle-right.bg-color-10
                     p.mb-0 Identificar y aplicar los principios de la estimulación temprana en una variedad de contextos, tales como el hogar, centros educativos y entornos de salud, adaptando las estrategias a las necesidades individuales de cada niño.
                   li.d-flex
-                    i.far.fa-arrow-alt-circle-right.bg-color-9
+                    i.far.fa-arrow-alt-circle-right.bg-color-10
                     p.mb-0 Comprender las bases neurocientíficas y psicológicas que sustentan el desarrollo infantil, con énfasis en el papel fundamental de la plasticidad cerebral y los períodos críticos del desarrollo, que permiten optimizar el aprendizaje y crecimiento en los primeros años de vida.
               .col-lg-4(data-aos="zoom-in").order-1.mb-3.mb-lg-0
                 img.img-fluid(src='@/assets/curso/intro/3.svg', style="max-width:486px", alt="" ).mx-auto.mx-lg-0.ms-lg-auto.mb-4.mb-lg-0
@@ -46,20 +46,20 @@
     p.mb-4 La unidad está organizada en tres subtemas claves:
 
     .row.justify-content-center.align-items-stretch
-      .col-lg-4
+      .col-lg-4.mb-3.mb-lg-0
         .bg-color-4.p-4(data-aos="fade-left").h-100
           h5.mb-2 1.
           p.mb-0.text-center.text-bold Fundamentos de la estimulación temprana
-      .col-lg-4
+      .col-lg-4.mb-3.mb-lg-0
         .bg-color-4.p-4(data-aos="fade-left").h-100
           h5.mb-2 2.
           p.mb-0.text-center.text-bold Intervención en el desarrollo del lenguaje
-      .col-lg-4
+      .col-lg-4.mb-3.mb-lg-0
         .bg-color-4.p-4(data-aos="fade-left").h-100
           h5.mb-2 3.
           p.mb-0.text-center.text-bold Estimulación sensorial
     
-    .bg-full-width.bg-h85
+    .bg-full-width.bg-h85.mb-5
       .px-4.px-md-5.py-4
         div 
           .row.align-items-center
