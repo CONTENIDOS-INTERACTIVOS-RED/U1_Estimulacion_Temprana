@@ -57,7 +57,7 @@
             .col-lg-auto
               img(src="@/assets/curso/tema2/3.svg", style="max-width: 90px").mx-auto
             .col-lg
-              p.mb-0.text-bold ¿Cómo los niños aprenden a hablar
+              p.mb-0.text-bold ¿Cómo los niños aprenden a hablar?
 
       .col-lg-6.mb-3.mb-lg-0
         .bg-color-7.p-4(data-aos="fade-left").h-100
