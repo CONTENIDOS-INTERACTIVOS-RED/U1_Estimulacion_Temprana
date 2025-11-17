@@ -118,7 +118,7 @@
               a(href="https://blog.fundacionjuanxxiii.org/para-que-sirve-la-Estimulación-sensorial-como-se-lleva-a-cabo " target="_blank" rel="noopener noreferrer") ¿Para qué sirve la estimulación sensorial? ¿Cómo se lleva a cabo? (s.f.-b). Blog FUNDACIÓN JUAN XXIII. 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://tripijocs.com/blog/ambitos-de-desarrollo/Estimulación-sensorial/ " target="_blank" rel="noopener noreferrer") Estimulación Sensorial - Tripijocs. (s.f.). Tripijocs. 
+              a(href="https://ri.ufg.edu.sv/jspui/bitstream/11592/6723/1/Estimulaci%C3%B3n%20sensorial.pdf" target="_blank" rel="noopener noreferrer") Cano-Barroeta, P. B. (2018). Estimulación sensorial. Repositorio Institucional de la Universidad Francisco Gavidia. 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://www.colegioceusanchinarro.es/blog/la-importancia-de-la-educacion-sensorial-en-infantil/ " target="_blank" rel="noopener noreferrer") La importancia de la educación sensorial en Infantil. (s.f.). Colegio CEU San Pablo Sanchinarro. 
